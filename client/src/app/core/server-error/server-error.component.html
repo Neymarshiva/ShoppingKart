@@ -1,0 +1,15 @@
+<div class="container mt-5">
+    <h1>Internal Server Error -- refreshing the page will make the the exception disappear</h1>
+
+    <h5 class="text-danger">Error:{{error.message}}</h5>
+    <p class="font-weight-bold">Note: If your seeing this then Angular is probably not responsible</p>
+    <p>what to do next?</p>
+    <ol>
+        <li>Open chrome dev tools</li>
+        <li>Inspect the network tab</li>
+        <li>Check the failing Request</li>
+        <li>Examine this request url -- make sure this is correct</li>
+        <p>Following the stack traces - this is where your investigation should start</p>       
+    </ol>
+    <code class="mt-5" style="background-color:whitesmoke;">{{error.details}}</code>
+</div>
