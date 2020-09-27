@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netstandard2.0\Core.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netstandard2.0\Core.deps.json" />
+    <Content Include="obj\Core.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\netstandard2.0\Core.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netstandard2.0\Core.dll" />
+    <None Include="bin\Debug\netstandard2.0\Core.pdb" />
+    <None Include="obj\Core.csproj.nuget.cache" />
+    <None Include="obj\Core.csproj.nuget.g.props" />
+    <None Include="obj\Core.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netstandard2.0\Core.assets.cache" />
+    <None Include="obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netstandard2.0\Core.dll" />
+    <None Include="obj\Debug\netstandard2.0\Core.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+﻿@page
+@model LogoutModel
+@{
+    ViewData["Title"] = "Log out";
+}
+
+<header>
+    <h1>@ViewData["Title"]</h1>
+    <p>You have successfully logged out of the application.</p>
+</header>
+
+//Here we are using IIFE
+
+@*IIFE stands for Immediately Invoked Function Expression. It is also called as a Self-Executing Anonymous Function. 
+In simple terms it is a JavaScript function that runs as soon as it is defined.*@
+
+<script>
+    (() => {
+        document.getElementById('logoutForm').submit();
+    })()
+</script>
