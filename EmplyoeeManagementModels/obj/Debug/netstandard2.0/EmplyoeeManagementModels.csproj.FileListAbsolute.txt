@@ -1,0 +1,11 @@
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\bin\Debug\netstandard2.0\EmplyoeeManagementModels.deps.json
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\bin\Debug\netstandard2.0\EmplyoeeManagementModels.dll
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\bin\Debug\netstandard2.0\EmplyoeeManagementModels.pdb
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\obj\Debug\netstandard2.0\EmplyoeeManagementModels.AssemblyInfoInputs.cache
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\obj\Debug\netstandard2.0\EmplyoeeManagementModels.AssemblyInfo.cs
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\obj\Debug\netstandard2.0\EmplyoeeManagementModels.dll
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\obj\Debug\netstandard2.0\EmplyoeeManagementModels.pdb
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\obj\Debug\netstandard2.0\EmplyoeeManagementModels.csprojAssemblyReference.cache
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\bin\Debug\netstandard2.0\HelperClass.Componet.dll
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\bin\Debug\netstandard2.0\HelperClass.Componet.pdb
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\obj\Debug\netstandard2.0\EmplyoeeManagementModels.csproj.CopyComplete
