@@ -144,3 +144,13 @@ F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\bin\Debug\netcoreapp3.1\Au
 F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\obj\Debug\netcoreapp3.1\EmplyoeeManagement.Api.MvcApplicationPartsAssemblyInfo.cs
 F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\obj\Debug\netcoreapp3.1\EmplyoeeManagement.Api.MvcApplicationPartsAssemblyInfo.cache
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\bin\Debug\netcoreapp3.1\Pipelines.Sockets.Unofficial.dll
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\bin\Debug\netcoreapp3.1\StackExchange.Redis.dll
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\obj\Debug\netcoreapp3.1\EmplyoeeManagement.Api.csproj.CoreCompileInputs.cache
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Api\obj\Debug\netcoreapp3.1\EmplyoeeManagement.Api.genruntimeconfig.cache

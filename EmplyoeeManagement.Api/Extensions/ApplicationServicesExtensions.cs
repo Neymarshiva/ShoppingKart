@@ -3,6 +3,7 @@ using EmplyoeeManagement.Api.Dapper;
 using EmplyoeeManagement.Api.Data;
 using EmplyoeeManagement.Api.Errors;
 using EmplyoeeManagement.Api.Models;
+using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -21,8 +22,10 @@ namespace EmplyoeeManagement.Api.Extensions
 
             services.AddScoped<IDepartmentRepository, DepartmentRepository>();
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IBasketRepository, BasketRepository>();
             services.AddScoped<IDataBaseConnection, DataBaseConnection>();
 
+            
 
             services.Configure<ApiBehaviorOptions>(options => {
 

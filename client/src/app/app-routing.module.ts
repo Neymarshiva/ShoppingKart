@@ -6,7 +6,7 @@ import { ServerErrorComponent } from './core/server-error/server-error.component
 import { NotFoundComponent } from './core/not-found/not-found.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent , data: { breadcrum: 'Home' },},
+  { path: '', component: HomeComponent, data: { breadcrum: 'Home' } },
   {
     path: 'test-error',
     component: TestErrorComponent,
@@ -26,7 +26,13 @@ const routes: Routes = [
     path: 'shop',
     loadChildren: () =>
       import('./shop/shop.module').then((mod) => mod.ShopModule),
-      data: { breadcrum: 'shop' },
+    data: { breadcrum: 'shop' },
+  },
+  {
+    path: 'basket',
+    loadChildren: () =>
+      import('./basket/basket.module').then((mod) => mod.BasketModule),
+    data: { breadcrum: 'Basket' },
   },
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];

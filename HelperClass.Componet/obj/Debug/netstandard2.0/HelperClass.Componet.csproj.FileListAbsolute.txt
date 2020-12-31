@@ -20,3 +20,4 @@ F:\shiva\Blazor\BlazorTutorial\HelperClass.Componet\obj\Debug\netstandard2.0\Hel
 F:\shiva\Blazor\BlazorTutorial\HelperClass.Componet\obj\Debug\netstandard2.0\HelperClass.Componet.csprojAssemblyReference.cache
 F:\shiva\Blazor\BlazorTutorial\HelperClass.Componet\obj\Debug\netstandard2.0\RazorDeclaration\Confirm.razor.g.cs
 F:\shiva\Blazor\BlazorTutorial\HelperClass.Componet\obj\Debug\netstandard2.0\Razor\Confirm.razor.g.cs
+F:\shiva\Blazor\BlazorTutorial\HelperClass.Componet\obj\Debug\netstandard2.0\HelperClass.Componet.csproj.CoreCompileInputs.cache

@@ -234,3 +234,5 @@ F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Web\obj\Debug\netcoreapp3.1\Ra
 F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Web\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Web\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
 F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Web\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Web\obj\Debug\netcoreapp3.1\EmplyoeeManagement.Web.csproj.CoreCompileInputs.cache
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagement.Web\obj\Debug\netcoreapp3.1\EmplyoeeManagement.Web.genruntimeconfig.cache

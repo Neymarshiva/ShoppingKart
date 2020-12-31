@@ -9,3 +9,4 @@ F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\obj\Debug\netstandard2.0
 F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\bin\Debug\netstandard2.0\HelperClass.Componet.dll
 F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\bin\Debug\netstandard2.0\HelperClass.Componet.pdb
 F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\obj\Debug\netstandard2.0\EmplyoeeManagementModels.csproj.CopyComplete
+F:\shiva\Blazor\BlazorTutorial\EmplyoeeManagementModels\obj\Debug\netstandard2.0\EmplyoeeManagementModels.csproj.CoreCompileInputs.cache

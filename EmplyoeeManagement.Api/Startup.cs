@@ -23,6 +23,7 @@ using EmplyoeeManagement.Api.Helpers;
 using EmplyoeeManagement.Api.Middleware;
 using EmplyoeeManagement.Api.Errors;
 using EmplyoeeManagement.Api.Extensions;
+using StackExchange.Redis;
 
 namespace EmplyoeeManagement.Api
 {
@@ -40,9 +41,17 @@ namespace EmplyoeeManagement.Api
         {
             services.AddControllers();
             services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("DBConnection"))); 
+            options.UseSqlServer(Configuration.GetConnectionString("DBConnection")));
 
-         
+
+            //Redis Configuration
+
+            services.AddSingleton<IConnectionMultiplexer>(c =>
+            {
+                var configuration = ConfigurationOptions.Parse(Configuration.GetConnectionString("Redis"), true);
+                return ConnectionMultiplexer.Connect(configuration);
+            });
+
 
             services.AddAutoMapper(typeof(MappingProfiles));
 
@@ -60,8 +69,8 @@ namespace EmplyoeeManagement.Api
 
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
-           
-        }        
+
+        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -74,7 +83,7 @@ namespace EmplyoeeManagement.Api
             app.UseMiddleware<ExceptionMiddleware>();
 
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
-           
+
 
             app.UseHttpsRedirection();
 
