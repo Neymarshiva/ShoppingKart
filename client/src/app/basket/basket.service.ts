@@ -40,6 +40,7 @@ export class BasketService {
   }
 
   addItemToBasket(item: IProduct, qunatity = 1) {
+    debugger;
     const itemToAdd: IBasketItem = this.mapProductItemToBasket(item, qunatity);
     const basket = this.getCurrentBasketValue() ?? this.createBasket();
     basket.items = this.addOrUpdateItem(basket.items, itemToAdd, qunatity);
